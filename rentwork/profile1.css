@@ -1,0 +1,301 @@
+ 
+ .close-icon{
+  position: absolute;
+  left: 95vw;
+  width: 40px;
+  top: 3vh;
+ }
+ .profile-logo{
+  margin: -6.5rem 0 2rem 0;
+  border-radius: 40%;
+  height: 7rem;
+  width: 7rem;
+ }
+
+  .user_name{
+    font-size: 25px;
+    line-height: 20.02px;
+    color: var(--color-black);
+  }
+  .frame-child {
+    position: absolute;
+    background-color: var(--color-thistle);
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25),
+      2px 2px 4px rgba(115, 6, 167, 0.7);
+    width: 400px;
+    height: 53px;
+  }
+  .add-room {
+    display: flex;
+    font-size: var(--font-size-xl);
+    line-height: 20.02px;
+    font-weight: 600;
+    font-family: var(--font-mulish);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .component-41 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .component-4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 147px;
+    height: 35px;
+  }
+  .edit-profile {
+    text-decoration: none;
+    padding-top:2rem;
+    position: relative;
+    width: 40%;
+    line-height: 20.02px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+  }
+
+  .user-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 8%;
+    margin: 1.5rem 0 .6rem 0;
+    border-radius: 0 var(--br-xl) var(--br-xl) 0;
+    background-color: var(--color-thistle);
+    color: black;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25), 2px 2px 4px rgba(200, 107, 243, 0.7);
+  }
+  .user-menu:hover{
+    transition: all .2s;
+    color: rgba(76, 68, 68, 0.831);
+    box-shadow: -2px -2px 4px 2px 2px 4px rgba(200, 107, 243, 0.7), rgba(0, 0, 0, 0.25);
+  }
+  .edit-profile {
+    
+  }
+  .western-man-icon {
+    display: flex;
+    left: 3240%;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .leftDiv {
+    display: flex;
+    /* margin-top: -5rem; */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    background-color: var(--color-lavender);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 22%;
+    height: 100vh;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    color: var(--color-darkgray);
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3,
+  .frame-child4,
+  .frame-child5,
+  .frame-child6,
+  .frame-inner,
+  .frame-item,
+  .rectangle-input {
+    border: 0;
+    background-color: var(--color-white);
+    box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.25), 1px 1px 4px rgba(0, 0, 0, 0.25);
+    width: 260px;
+    height: 31px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-top: .3rem;
+  }
+  .rectangle-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 18px;
+    border-radius: var(--br-xl) var(--br-xl) 0 0;
+    background-color: var(--color-thistle);
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25),
+      2px 2px 4px rgba(115, 6, 167, 0.7);
+    width: 98%;
+    height: 63px;
+  }
+  .group-icon {
+    height: 81.67%;
+    width: 81.67%;
+    bottom: 11.25%;
+    left: 11.25%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .group-icon,
+  .name-parent,
+  .tableredit {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .tableredit {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-tap {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    box-shadow: -4.269966125488281px -4.269966125488281px 4.27px rgba(0, 0, 0, 0.25),
+      5.337457656860352px 7.472440719604492px 4.27px rgba(0, 0, 0, 0.25);
+            z-index: 1;
+            left: 27%;
+            top: 14%;
+            width: 70%;
+            visibility: hidden;
+  }
+  .profile-popup{
+            visibility: visible;
+  }
+  .profile-name {
+    display: flex;
+    margin-top: .9rem;
+    line-height: 17px;
+    font-weight: 600;
+    width: 290px;
+    height: 36px;
+  }
+  .renters-profile {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 26.69px;
+    color: var(--color-black);
+    font-family: var(--font-mulish);
+  }
+  .input_tag{
+    display: flex;
+    flex-direction: row;
+    padding: 1.2rem;
+    justify-content: center;
+  }
+  .input_tag1{
+    font-size: .95rem;
+    padding: 0rem 2.5rem;
+  }
+  .input_tag1>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -.4rem;
+    margin-bottom: .3rem;
+    padding: .5rem;
+  }
+
+
+  /* ............................................documents css......................................... */
+
+  
+  .doc-parent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 14%;
+    left: 5%;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lavender);
+    box-shadow: -4.269966125488281px -4.269966125488281px 4.27px rgba(0, 0, 0, 0.25),
+      5.337457656860352px 7.472440719604492px 4.27px rgba(0, 0, 0, 0.25);
+    width: 70%;
+    height: 55%;
+    visibility: hidden;
+  }
+
+  .doc-popup{
+    visibility: visible;
+  }
+
+  .documents1 {
+    margin-top: -2.4rem;
+    margin-left: 1rem ;
+    font-size: 26.69px;
+    line-height: 21.37px;
+    font-weight: 600;
+    width: 290px;
+    height: 36px;
+  }
+
+  .docDiv2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+  
+  .doc-card{
+    padding: 1rem;
+    line-height: 26.12px;
+    font-weight: 600;
+    width: 245.67px;
+    height: 44px;
+  }
+  .frame-inner-document {
+    border-radius: var(--br-xl) var(--br-xl) 0 0;
+    background-color: var(--color-thistle);
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25),
+      2px 2px 4px rgba(115, 6, 167, 0.7);
+    height: 63px;
+  }
+
+ 
+  .doc-input {
+    margin: .5rem 1rem 0 -3rem;
+    font-weight: 600;
+    font-family: var(--font-mulish);
+    font-size: var(--font-size-6xl);
+    line-height: 26.12px;
+    color: var(--color-gray);
+    width: 295px;
+    height: 36px;
+  }
+  .attach-icon {
+    margin: -2.3rem 0 1.4rem 13rem;
+  }
+  
+  .edit-icon-doc{
+    height: 25px;
+    width: 25px;
+    margin: -2rem 0 0 52rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .doc-list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .doc-list-update{
+    display: flex;
+    flex-direction: row;
+  }

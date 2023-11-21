@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" ,initial-scale=1.0 />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./profile1.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap" />
+</head>
+
+<body>
+  <div class="renters-profile">
+    <a href="../owner/owner-panel.html" class="close-icon"><img src="./image/close.svg" alt=""></a>
+    <div class="leftDiv">
+      <img class="profile-logo" src="./image/logo.jpg" alt="">
+      <div class="add-room">Vinayak Soni</div>
+      <div class="user-menu" id="profile" onclick="openProfilePopup()">Profile</div>
+      <div class="user-menu" id="profile" onclick="openDocPopup()">Documents</div>
+    </div>
+
+    <!-- ...........................................Profile Tap....................................... -->
+    <div class="profile-tap" id="profilePopup" profilediv>
+      <div class="rectangle-div">
+        <a href="" onclick="closePopup()">
+          <img class="western-man-icon" alt="" src="./image/edit.svg" />
+        </a>
+        <div class="profile-name">Profile : Vinayak soni</div>
+      </div>
+      <div class="input_tag">
+        <div class="input_tag1">
+          <div>Name
+            <input class="rectangle-input" name="inputTag" id="input_name" placeholder="Enter Name" type="text" />
+          </div>
+          <div>Mother Name
+            <input class="frame-item" name="inputTag" id="inputName" placeholder="Mother Name" type="text" />
+          </div>
+          <div>Father Name
+            <input class="frame-inner" name="inputTag" id="inputName" placeholder="Father Name" type="text" />
+          </div>
+          <div>Date of Birth
+            <input class="frame-child1" name="inputTag" id="inputBirth" placeholder="Date of Birth"
+              type="datetime-local" />
+          </div>
+          <div>Gender
+            <input class="frame-child2" name="inputTag" placeholder="Enter your Gender" type="text" />
+          </div>
+        </div>
+        <div class="input_tag1">
+          <div>Mobile No.
+            <input class="frame-child3" name="inputTag" id="inputNumber" placeholder="Mobile Number" type="number" />
+          </div>
+          <div>Search
+            <input class="frame-child4" name="inputTag" id="inputSearch" placeholder="Search" type="search" />
+          </div>
+          <div>Aadhar No.
+            <input class="frame-child5" name="inputTag" id="inputAadhar" placeholder="Aadhar Number" type="text" />
+          </div>
+          <div>Email
+            <input class="frame-child6" name="inputTag" id="inputEmail" placeholder="Enter Email address"
+              type="email" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ..........................................Document section.................................... -->
+    <div class="doc-parent" id="docPopup">
+      <div class="docDiv1">
+        <div class="frame-inner-document"></div>
+        <div class="documents1">Documents
+          <div class="edit-icon-doc">
+          <a href="" onclick="closeDocPopup()">
+            <img  alt="" src="./image/edit.svg" />
+          </a></div>
+        </div>
+      </div>
+      <div class="docDiv2">
+           <div> <div class="doc-card">Aadhar Card :</div>
+            <div class="doc-card">Pan Card :</div></div>
+            <div>
+            <input class="doc-input" name="inpuTag" placeholder="Aadhar Card" type="text" />
+            <div class="attach-icon">
+              <img src="./image/attach.svg" />
+            </div>
+            <input class="doc-input" name="inpuTag" placeholder="Pan Card" type="text" />
+            <div class="attach-icon">
+              <img src="./image/attach.svg" />
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    let profilePop = document.getElementById("profilePopup");
+
+    function openProfilePopup() {
+      profilePop.classList.add("profile-popup");
+    }
+    function closeProfilePopup() {
+      profilePop.classList.remove("profile-popup");
+    }
+    let DocPop = document.getElementById("docPopup");
+
+    function openDocPopup() {
+      DocPop.classList.add("doc-popup");
+    }
+    function closeDocPopup() {
+      DocPop.classList.remove("doc-popup");
+    }
+  </script>
+</body>
+
+</html>

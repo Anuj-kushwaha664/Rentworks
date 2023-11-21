@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-mulish: Mulish;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-darkgray: #999;
+    --color-black: #000;
+  }
+  

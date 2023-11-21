@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./owner-panel.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap" />
+
+    <!-- // font-awsone link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- .............................................owner home page.....................................  -->
+    <div class="owners-profile">
+        <div class="symbolsupdate">
+
+            <img class="setting-icon" alt="" src="./images/setting.svg" />
+
+            <img class="search-icon" alt="" src="./images/search.svg" />
+
+            <img class="Group-icon" alt="" src="./images/Group.svg" />
+
+            <div class="user_name">User_name</div>
+            <div class="search">Search</div>
+            <div class="setting">Setting</div>
+            <div class="room-icon" onclick="increaseRoom()">
+                <img class="plus-icon" alt="" src="./images/plus.svg" />
+
+                <div class="add-room">Add room</div>
+            </div>
+            <div class="room addRoom" id="addRoom" onclick="openDatePopup()">
+                <!--                 
+                <div class="roomElements" onclick="openDatePopup()">
+                    <img class="room-img" alt="" src="/images/house.svg" />
+                    Room-2
+                </div> -->
+            </div>
+        </div>
+        <div class="main-img">
+            <img class="main-img-icon" alt="" src="./images/img.png" />
+        </div>
+        <div class="rentworks-is-the">
+            RentWorks is the world’s leading community for rent and renter’s
+            document management.
+        </div>
+    </div>
+
+    <!-- ........................................date page.....................................  -->
+    <div class="date-div" id="date-pop">
+        <div class="date-header">
+            <div>
+                <h1>ROOM-1 </h1>
+            </div>
+            <div><a class="date-renter-profile" href="../rentwork/profile1.html"><img class="date-renter-icon"
+                        src="./images/Group.svg" alt="">
+                    <div> Renter’s Profile</div>
+                </a></div>
+            </a>
+        </div>
+        <div>
+            <div class="input-date-text">Month start date :
+                <input class="input-date" name="inputTag" id="inputBirth" placeholder="Date of Birth" type="date" />
+            </div>
+            <div class="month-date">
+                <span>></span>January
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./owner-panel.js"></script>
+</body>
+
+</html>

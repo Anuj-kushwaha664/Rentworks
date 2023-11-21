@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    line-height: normal;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    /* fonts */
+    --font-mulish: Mulish;
+  
+    /* font sizes */
+    --font-size-7xl-7: 26.7px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-lavender: #f0ecf9;
+    --color-thistle: #d1c5ed;
+    --color-darkgray: #999;
+  
+    /* Border radiuses */
+    --br-xl: 20px;
+  }
+  
