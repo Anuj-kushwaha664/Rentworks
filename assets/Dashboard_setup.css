@@ -1,0 +1,72 @@
+html{
+    margin : 0px;
+    background-color: #F0ECF9;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard{
+    display: relative;
+}
+.dashboard h1{
+    color : purple;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+form{
+    position: relative;
+    height: auto;
+    width : 80%;
+    margin : auto;
+    background-color: white;
+    padding : 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 2px 2px lightgray;
+}
+form input{
+    margin-left : 2rem;
+}
+form p{
+    margin : 10px;
+}
+
+.btn{
+    margin-top : 3rem;
+    margin-left : 1.5rem;
+    padding : 0.4rem 1.2rem;
+    color : white;
+    font-weight: 600;
+    background-color: #7306A7;
+    border: none;
+    border-radius: 1.5rem;
+  }
+  .btn a{
+    color : white;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width : 750px){
+    html{
+        font-size: 18px;
+    }
+        form{
+            width : 70%;
+        } 
+  }
+
+  @media screen and (min-width : 1000px){
+        form {
+            width : 50%;
+        }
+  }
+  @media screen and (min-width : 1200px){
+        form {
+            width : 40%;
+        }
+  }
